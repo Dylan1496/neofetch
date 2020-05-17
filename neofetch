@@ -6000,23 +6000,26 @@ EOF
         ;;
 
         "Carli"*)
-            set_colors 3 7
+            set_colors 5 7 4
             read -rd '' ascii_data <<'EOF'
-${c1}   ..,,;;;::;,..
-           `':ddd;:,.
-                 `'dPPd:,.
-                     `:b$$b`.
-                        'P$$$d`
-                         .$$$$$`
-                         ;$$$$$P
-                      .:P$$$$$$`
-                  .,:b$$$$$$$;'
-             .,:dP$$$$$$$$b:'
-      .,:;db$$$$$$$$$$Pd'`
- ,db$$$$$$$$$$$$$$b:'`
-:$$$$$$$$$$$$b:'`
- `$$$$$bd:''`
-   `'''`
+${c1}     __________
+   _/ccccccccccc\           
+  /ccccccccccccc.\
+ /ccccc.----.ccccc\
+|ccccc/      \.cccc.
+|ccccc|       \.cccc.
+|carli|        \..../
+|carli|   
+|carli|    ${c3}.aa${c2}aa.${c1}
+|carli|   ${c3}.aa${c2}  aa.${c1}
+|carli|  ${c3}.aaaaaa${c2}aa.${c1}
+|carli| ${c3}.aa${c2}      aa.${c1}    
+|ccccc\   ${c3} _____${c1}
+|cccccc\__/cccc.
+ .cccccccccccc.
+  .cccccccccc.
+   ..______..
+    
 EOF
 
         ;;
