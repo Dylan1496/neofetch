@@ -6002,23 +6002,23 @@ EOF
         "Carli"*)
             set_colors 5 7 4
             read -rd '' ascii_data <<'EOF'
-${c1}     __________
-   _/ccccccccccc\           
-  /ccccccccccccc.\
- /ccccc.----.ccccc\
-|ccccc/      \.cccc.
-|ccccc|       \.cccc.
-|carli|        \..../
+${c1}   ___________
+  /ccccccccccc\           
+ /cccccccccccc.\
+/cccccc.---.cccc\
+|ccccc.     \.ccc\
+|ccccc|      \.ccc|
+|carli|       \___/
 |carli|   
-|carli|    ${c3}.aa${c2}aa.${c1}
-|carli|   ${c3}.aa${c2}  aa.${c1}
-|carli|  ${c3}.aaaaaa${c2}aa.${c1}
-|carli| ${c3}.aa${c2}      aa.${c1}    
+|carli|        ${c3}.ar${c2}co.${c1}
+|carli|       ${c3}.ar${c2}  co.${c1}
+|carli|      ${c3}.aaaaar${c2}co.${c1}
+|carli|     ${c3}.ar${c2}      co.${c1}    
 |ccccc\   ${c3} _____${c1}
-|cccccc\__/cccc.
- .cccccccccccc.
-  .cccccccccc.
-   ..______..
+|cccccc\__/cccc/
+ .cccccccccccc/
+  .cccccccccc/
+   ..______./
     
 EOF
 
